@@ -45,9 +45,10 @@ header {
 .hero-text {
     display: flex;
     padding: 80px 0;
+    gap: 32px;
 }
 
-.hero-text .left .sign-up-btn {
+.hero-text .sign-up-btn {
     margin-top: 10px;
 }
 
@@ -140,4 +141,13 @@ header {
 .action-sub-text {
     font-size: 16px;
     font-weight: 300;
+}
+
+footer {
+    padding: 2rem 0;
+    background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
